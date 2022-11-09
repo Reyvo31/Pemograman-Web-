@@ -1,0 +1,46 @@
+#header{
+    background-color: blueviolet;
+    padding: 5px;
+}
+h1{
+    color: blanchedalmond;
+    text-align: center;
+}
+.isi span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: royalblue;
+    font-size: 4.5cm;
+}
+blockquote{
+    background-color: orange;
+    text-align: center;
+}
+span#soekarno{
+    font-style: italic;
+}
+.ngvn{
+    text-align: center;
+    padding: 10px;
+}
+h2{
+    color: green;
+    padding: 5px;
+}
+img{
+    width: 20%;
+}
+.gambar{
+    text-align: center;
+}
+.koleksi{
+    text-align: center;
+}
+.ecommerce{
+    background-color: gold;
+    text-align: center;
+    border: 3px solid black; 
+    color: black;
+    width: max-content;
+    margin: 5px;
+    padding: 10px;
+}
