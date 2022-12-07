@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Jumlah Dua Bilangan</title>
+</head>
+<body>
+    <h1>Menghitung Dua Bilangan</h1>
+    <input type="number" id="bilangan1" onchange="hitung()"> 
+    <br>
+    +
+    <br>
+    <input type="number" id="bilangan2" onchange="hitung()"> 
+    <br>
+    <span id="hasil">=</span>
+    <script>        
+        function hitung(){
+            let angka1= document.getElementById("bilangan1").value;
+            let angka2= document.getElementById("bilangan2").value;
+            let jumlah= parseInt(angka1) + parseInt(angka2)
+        document.getElementById("hasil").innerHTML = ("=" + jumlah)        }
+    </script>
+</body>
+</html>
